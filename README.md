@@ -9,7 +9,7 @@ Telegram: [@Nikita_Komissarov](https://telegram.me/nikita_komissarov) :star:\
 Email: [me@nikita-komissarov.ru](mailto:me@nikita-komissarov.ru)\
 Website: [nikita-komissarov.ru](https://nikita-komissarov.ru)
 
-## Skils
+## Skills
 
 ### Backend Development
 - PHP7

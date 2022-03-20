@@ -1,0 +1,12 @@
+{
+	"name": "Nikita Komissarov",
+	"short_name": "Nikita Komissarov",
+	"description": "",
+	"lang": "en-US",
+	"start_url": "/en.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"theme_color": "#fff",
+	"background_color": "#fff",
+	"prefer_related_applications": false
+}

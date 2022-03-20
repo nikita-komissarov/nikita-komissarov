@@ -1,0 +1,453 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/roboto-regular.woff2') format('woff2'),
+		url('../fonts/roboto-regular.woff') format('woff'),
+		url('../fonts/roboto-regular.ttf') format('truetype'),
+		url('../fonts/roboto-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../fonts/roboto-bold.woff2') format('woff2'),
+		url('../fonts/roboto-bold.woff') format('woff'),
+		url('../fonts/roboto-bold.ttf') format('truetype'),
+		url('../fonts/roboto-bold.svg#Roboto') format('svg');
+}
+
+body {
+	color: #252525;
+}
+
+.point:after {
+	color: #3333ff;
+}
+
+.main-menu ul li a:hover {
+	color: #3333ff;
+}
+
+.colored-link:hover,
+.colored-link:active,
+.colored-link.hover,
+.colored-link.active {
+	color: #3333ff;
+}
+
+.wave-bg .zigzag svg:last-child polyline {
+	stroke: #3333ff;
+}
+a {
+	color: inherit;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: inherit;
+	outline: none !important;
+	text-decoration: none;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+button:active,
+button:focus {
+	outline: none !important;
+	text-decoration: none;
+}
+
+body {
+	background: #fff;
+	overflow-x: hidden;
+}
+
+img {
+	border-radius: 2px;
+}
+
+:focus {
+	outline: none !important;
+}
+
+/* Header */
+.header {
+	padding: 20px 0 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 1000;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.point:after {
+	content: '.';
+}
+
+.main-menu {
+	text-align: right;
+}
+.main-menu ul.list-inline {
+	margin-right: -5px;
+}
+.main-menu ul li {
+	margin: 8px 0 10px 20px;
+}
+.main-menu ul li a {
+	display: inline-block;
+}
+
+.colored-link {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	color: #3333ff;
+	font-weight: 700;
+}
+
+/* Header */
+/* Sections */
+.section {
+	padding: 40px 0;
+	border-top: 1px solid #e3e3e3;
+}
+.section.section-small-padding {
+	padding: 40px 0 10px;
+}
+
+#hello {
+	margin-top: 80px;
+	border: none;
+}
+
+.about-img-wrap {
+	float: right;
+}
+.about-img-wrap .about-img {
+	position: relative;
+	padding-bottom: 56.2%;
+}
+.about-img-wrap .about-img img {
+	position: absolute;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.about-me-title {
+	margin-bottom: 10px;
+}
+
+.span-title {
+	float: left;
+	display: block;
+}
+.span-title + span,
+.span-title + a {
+	display: block;
+	padding-left: 90px;
+	opacity: 0.8;
+}
+.span-title + .span-icons {
+	opacity: 1;
+}
+
+.about-me-text {
+	margin-bottom: 20px;
+}
+
+.opacity-box {
+	opacity: 0.8;
+}
+
+.about-me-info {
+	margin-bottom: 30px;
+}
+.about-me-info p {
+	margin-bottom: 10px;
+}
+.about-me-info a.fonts-icons {
+	padding-right: 20px;
+	margin-bottom: 5px;
+	min-width: 16px;
+	text-align: center;
+}
+
+.about-btns .site-btn {
+	margin-right: 30px;
+}
+
+.advantages-box {
+	margin-bottom: 0px;
+}
+.advantages-box h4 {
+	margin-bottom: 2px;
+}
+
+.wave-bg {
+	position: relative;
+}
+.wave-bg .zigzag {
+	width: 105px;
+	position: absolute;
+	bottom: -5px;
+	left: 15px;
+}
+.wave-bg .zigzag svg:first-child polyline {
+	stroke: #efefef;
+}
+
+.section-small-padding .wave-bg .zigzag {
+	bottom: 45px;
+}
+
+.section-small-padding .section-sidebar {
+	padding-bottom: 75px;
+}
+
+.about-row .about-tittle {
+	float: left;
+	margin-right: 10px;
+}
+
+.about-row .about-info {
+	padding: 2px 0;
+	opacity: 0.8;
+}
+.about-row .about-info + p {
+	opacity: 0.8;
+}
+
+.about-row .opacity-box {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.right-box > .row:last-child .about-row,
+.right-box > .row:last-child .about-date {
+	margin-bottom: 0;
+}
+
+.section-sidebar {
+	padding-bottom: 50px;
+}
+.section-sidebar h2 {
+	margin-bottom: 1px;
+}
+
+.section-title {
+	margin-bottom: 20px;
+}
+
+/* Sections */
+.st0 {
+	fill: none;
+}
+
+.st1 {
+	fill: none;
+	stroke: #f95231;
+	stroke-width: 7;
+	stroke-miterlimit: 10;
+}
+
+.footer {
+	background: #efefef;
+	padding: 15px 0 15px;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.56;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 1.25;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.logo {
+	font-size: 27px;
+	font-weight: 700;
+}
+
+.main-menu ul li a {
+	text-transform: uppercase;
+	font-size: 12px;
+
+	font-weight: 700;
+	line-height: 1.66;
+}
+
+.colored-link {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.about-me-info {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.span-title {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	line-height: 1.66;
+}
+
+.copyright {
+	font-size: 14px;
+	line-height: 1.4;
+	opacity: 0.8;
+}
+
+@media screen and (min-width: 992px) {
+	.mobile-hr {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	body {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+	h2 {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+	.logo {
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	.about-img-wrap {
+		float: none;
+		text-align: center;
+	}
+	.about-img {
+		margin-bottom: 20px;
+	}
+	h4 {
+		font-size: 18px;
+		line-height: 1.55;
+	}
+	.wave-bg .zigzag {
+		display: none;
+	}
+	.section-sidebar,
+	.section-small-padding .section-sidebar {
+		padding: 0;
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+	.about-date {
+		text-align: left;
+	}
+	.col-md-8 > .about-row {
+		margin-bottom: 20px !important;
+	}
+	.header {
+		padding: 10px 0 15px;
+	}
+	.container {
+		padding: 0 20px;
+	}
+	.section {
+		padding: 30px 0;
+	}
+	.section.section-small-padding {
+		padding: 30px 0 5px;
+	}
+	.footer {
+		padding: 15px 0 15px;
+	}
+	#hello {
+		margin-top: 60px;
+	}
+	.about-me-text {
+		padding-top: 5px;
+	}
+	.about-me-title {
+		margin-bottom: 1px;
+	}
+	.section-sidebar h2 {
+		margin-bottom: 2px;
+		padding-bottom: 0px;
+	}
+	.about-me-info {
+		margin-bottom: 10px;
+	}
+	.about-me-info a.mdi:before {
+		margin-bottom: 10px;
+	}
+	.advantages-box h4,
+	.about-row .color-h4 {
+		margin-bottom: 4px;
+	}
+	.about-row .about-tittle {
+		float: none;
+		padding-bottom: 4px;
+	}
+	.about-row .about-info {
+		float: left;
+		padding: 0px;
+		margin-right: 10px;
+	}
+	.feedback-block .about-tittle {
+		float: none;
+	}
+	.feedback-block .opacity-box {
+		padding-top: 5px;
+		padding-left: 0px;
+	}
+	.portfolio-box {
+		margin-bottom: 20px;
+	}
+	.portfolio-box .portfolio-name {
+		margin-bottom: 4px;
+	}
+	.form-wrapper {
+		padding-top: 10px;
+	}
+	.form-wrapper .form-group {
+		margin-bottom: 20px;
+	}
+}

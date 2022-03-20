@@ -25,22 +25,22 @@ body {
 }
 
 .point:after {
-	color: #3333ff;
+	color: #3a70d6;
 }
 
 .main-menu ul li a:hover {
-	color: #3333ff;
+	color: #3a70d6;
 }
 
 .colored-link:hover,
 .colored-link:active,
 .colored-link.hover,
 .colored-link.active {
-	color: #3333ff;
+	color: #3a70d6;
 }
 
 .wave-bg .zigzag svg:last-child polyline {
-	stroke: #3333ff;
+	stroke: #3a70d6;
 }
 a {
 	color: inherit;
@@ -122,7 +122,7 @@ img {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	cursor: pointer;
-	color: #3333ff;
+	color: #3a70d6;
 	font-weight: 700;
 }
 
@@ -167,8 +167,8 @@ img {
 .span-title + span,
 .span-title + a {
 	display: block;
-	padding-left: 90px;
-	opacity: 0.8;
+	padding-left: 100px;
+	opacity: 1;
 }
 .span-title + .span-icons {
 	opacity: 1;

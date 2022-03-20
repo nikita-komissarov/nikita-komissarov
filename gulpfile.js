@@ -28,14 +28,14 @@ gulp.task('html', function (data) {
 
 gulp.task('html_min', function () {
 	return gulp
-		.src('dist/pages/**/*.html')
+		.src('dist/**/*.html')
 		.pipe(
 			htmlmin({
 				collapseWhitespace: true,
 				removeComments: true,
 			})
 		)
-		.pipe(gulp.dest('dist/pages/'));
+		.pipe(gulp.dest('dist/'));
 });
 
 gulp.task('css_min', function () {

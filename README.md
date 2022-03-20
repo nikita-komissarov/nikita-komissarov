@@ -5,14 +5,14 @@
 :muscle: I want to get more work and improve my skills as a web developer!
 
 ## Contacts
-Telegram: [@Nikita_Komissarov](https://telegram.me/nikita_komissarov) :star:\
+**Telegram: [Nikita_Komissarov](https://telegram.me/nikita_komissarov)**\
 Email: [me@nikita-komissarov.ru](mailto:me@nikita-komissarov.ru)\
 Website: [https://nikita-komissarov.ru](https://nikita-komissarov.ru)
 
 ## Skills
 
 ### Backend Development
-- PHP7
+- PHP/7
 - Node.js
 - MySQL
 - PostgreSQL

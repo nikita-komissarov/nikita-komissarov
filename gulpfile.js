@@ -106,4 +106,15 @@ gulp.task(
 	)
 );
 
+gulp.task('push_to_backet', function() {
+  return gulp.src('dist/robots.txt')
+  .pipe(shell(['aws --endpoint-url=https://storage.yandexcloud.net \
+  s3 cp --recursive /home/nikita/projects/nikita-komissarov/dist s3://nikita-komissarov.ru/']));
+})
+
 gulp.task('default', gulp.series('build'));
+gulp.task('deploy', 
+  gulp.series('build', 
+  'push_to_backet'
+  )
+);
